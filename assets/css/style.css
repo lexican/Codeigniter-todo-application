@@ -1,0 +1,90 @@
+body, html {
+	font-family: 'Open Sans', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: white;
+	font-weight: 400;
+	width: 100% !important;
+    height: 100% !important;
+    background-color: #fff;
+
+}
+.navbar{
+    background: transparent;
+    transition:all 1s ease;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    transition: all 1s ease;
+    color: rgb(191, 142, 0);
+}
+.navbar-brand:hover{
+    color: rgb(58, 58, 58);
+}
+
+.nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: rgb(191, 142, 0);
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 18px;
+    margin: 0px 15px;
+    }
+.nav-link:hover{
+    color: #fff;
+}
+
+.toggler-btn{
+    border: none;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 10px;
+    background: #fff;
+}
+/* Header section*/
+
+#home{
+    min-height: 91vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/banner-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hide{
+    display: none;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+
