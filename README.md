@@ -1,6 +1,6 @@
 What is this repository for?
 
-    This repository is majorly for web services, it's a MVC todo web based application written in codeigniter, whereby a user can create (events and time of the events ), set the event status(completed or pending), update and delete and also search an event. There is a sigup page for users to register, a user authentication page and a login page page after successful registration.
+    This repository is majorly for web services, it's a MVC todo web based application written in codeigniter, whereby a user can create (events and time of the events ), set the event status(completed or pending), update and delete and also search an event. There is a signup page for users to register, a user authentication page and a login page page after successful registration.
 
 How do I get set up?
 
