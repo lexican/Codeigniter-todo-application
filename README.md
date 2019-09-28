@@ -38,11 +38,11 @@ CREATE  TABLE  todo (
 );
 
 						
-		config : base_url=>http://http://localhost/To-do-app/
-		registration page=>http://localhost/To-do-app/index.php/home/signup
-		signin page  =>http://localhost/To-do-app/index.php/home/login
-		user page =>http://http://localhost/To-do-app/home
-		user profile page =>http://http://localhost/To-do-app/home/profile/username
+		config : base_url=>http://http://localhost/Codeigniter-todo-application/
+		registration page=>http://localhost/Codeigniter-todo-application/index.php/home/signup
+		signin page  =>http://localhost/Codeigniter-todo-application/index.php/home/login
+		user page =>http://http://localhost/Codeigniter-todo-application/home
+		user profile page =>http://http://localhost/Codeigniter-todo-application/home/profile/username
 ROUTES
 $route['home'] = 'home/index';
 $route['home/login'] = 'users/login';
